@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/custom_marker_view">
+
+    <RelativeLayout
+        android:layout_width="82dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImgView"
+            android:layout_width="72dp"
+            android:layout_height="76dp"
+            app:civ_fill_color="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="4dp"
+            android:contentDescription="@null"
+            android:src="@drawable/bus_marker"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

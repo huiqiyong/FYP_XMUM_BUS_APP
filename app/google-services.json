@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "802211169273",
+    "project_id": "xmumbus-e6e01",
+    "storage_bucket": "xmumbus-e6e01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802211169273:android:e979c6443f76da31083328",
+        "android_client_info": {
+          "package_name": "com.example.xmum_bus_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "802211169273-169pue0rehegs0hr2hf2qqjue3o0i5mm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV73WYZk1tPSCFgeUpujMER4XjazgVdhU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "802211169273-169pue0rehegs0hr2hf2qqjue3o0i5mm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

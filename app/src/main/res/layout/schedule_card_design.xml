@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_marginEnd="10dp">
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:elevation="15dp"
+        android:background="@drawable/card_background">
+
+        <ImageView
+            android:id="@+id/stops_image1"
+            android:layout_width="130dp"
+            android:layout_height="200dp"
+            android:src="@drawable/erlstation"
+            android:scaleType="centerCrop"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/stops_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/stops_image1"
+            android:fontFamily="@font/cantora_one"
+            android:textStyle="bold"
+            android:text="Route 1 (*Saturday Only)"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/stops_title1"
+            android:layout_toEndOf="@+id/stops_image1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/session"
+                android:textSize="16sp"
+                android:fontFamily="@font/convergence"/>
+
+            <TextView
+                android:id="@+id/session1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/convergence"
+                android:text="Morning"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="150dp"
+            android:layout_toEndOf="@+id/stops_image1"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/ic_baseline_keyboard_double_arrow_right_24"
+            app:tint="@color/selected" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

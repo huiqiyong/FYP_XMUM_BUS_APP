@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">XMUM BUS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Page -->
+    <string name="welcome">Welcome back</string>
+    <string name="subTitle">Continue to sign in!</string>
+    <string name="hint1">Username</string>
+    <string name="hint2">Password</string>
+    <string name="userType1">Passenger</string>
+    <string name="userType2">Driver</string>
+    <string name="go">GO</string>
+    <string name="inputCheck">All field is required</string>
+    <string name="noRecord">Record not found</string>
+    <string name="passwordError">Wrong password</string>
+    <string name="language">Language</string>
+    <string name="english">En</string>
+    <string name="mandarin">Cn</string>
+    <string name="langToast">Language already selected!</string>
+
+    <!-- Fingerprint Page -->
+    <string name="fingerprint">Fingerprint Authentication</string>
+    <string name="succeedToast">Authentication succeeded!</string>
+    <string name="failedToast">Authentication failed</string>
+    <string name="biometricTitle">Biometric login for XMUM Bus App</string>
+    <string name="biometricSubTitle">Use your fingerprint to login</string>
+    <string name="biometricCancel">Cancel</string>
+    <string name="sensorToast">This device does not have a fingerprint sensor</string>
+
+    <!-- API Key -->
+    <string name="google_map_api_key">AIzaSyAVlGKU6xFT2JKzCD-P9a-qxZwd0z52I_U</string>
+
+    <!-- Driver -->
+    <string name="exit">Confirm Exit?</string>
+    <!-- Bus Status Update Page -->
+    <string name="pageTitle">Track Bus</string>
+    <string name="messageTitle">Message Update</string>
+    <string name="busStatus1">On schedule</string>
+    <string name="busStatus2">Delayed</string>
+    <string name="busStatus3">Bus breakdown</string>
+    <string name="stopBtn">Stop Tracking</string>
+    <string name="stopTrackingToast">Tracking is stop</string>
+    <string name="locationUpdate">Location updated started</string>
+    <string name="errorSignOut">Please stop tracking before sign out!</string>
+
+    <!-- Vehicle Tracking Page -->
+    <string name="startBtn">Start Tracking</string>
+    <string name="routeText">Route: </string>
+    <string name="departTime">Departure Time: </string>
+    <string name="enableLocation">Please enable Location Permission to proceed</string>
+    <string name="locationPermission">Location Permission</string>
+    <string name="contentLocationPermission">This app required location permission to start tracking the bus location</string>
+    <string name="permissionDenied">Location permission denied</string>
+
+    <!-- Driver Main Page -->
+    <string name="mainPageTitle">Schedules</string>
+    <string name="universityName">Xiamen University Malaysia</string>
+    <string name="dailyRoute">Daily Route</string>
+    <string name="specialRoute">Special Route</string>
+    <string name="timeText">Time: </string>
+    <string name="workMessage">No schedule today</string>
+
+    <!-- Passenger -->
+    <string name="title1">My Booking</string>
+    <string name="title2">Bus Route</string>
+    <string name="title3">Bus Schedule</string>
+    <string name="title4">Track Bus</string>
+    <string name="title5">QR Code Scanner</string>
+    <string name="title6">Emergency Contact</string>
+    <string name="title7">Signout</string>
+    <string name="signoutMessage">Successfully Sign out</string>
+    <string name="backPressedToast">Press Back Again to Exit App</string>
+
+    <!-- Track Bus Map Page -->
+    <string name="selectedRoute">Selected Route :</string>
+    <string name="eTA">Estimated Arrival Time :</string>
+    <string name="driverText">Driver :</string>
+    <string name="busNumber">Bus number :</string>
+    <string name="driverContact">Contact No :</string>
+    <string name="busStatusText">Bus Status :</string>
+    <string name="notificationMessage">Your bus is now arriving.</string>
+    <string name="notificationMessage2">It will wait 5 MINUTES.</string>
+    <string name="completeRoute">This route is complete. Stop Tracking.</string>
+    <string name="breakdownTitle">Urgent!</string>
+    <string name="breakdownContent">Bus broke down!</string>
+    <string name="busMarker">Current Bus Location</string>
+
+    <!-- Route Map Page -->
+    <string name="back">Back</string>
+
+    <!-- MyBooking Page -->
+    <string name="bookingMenu">Menu</string>
+    <string name="bookingHistory">History</string>
+
+    <!-- Booking Alarm Page -->
+    <string name="bookingAlarmTitle">Get ready now!</string>
+    <string name="bookingAlarmContent">Your bus will arrive in 10 MINUTES.</string>
+
+    <!-- Booking History Page -->
+    <string name="bookingMessage">No booking available</string>
+
+    <!-- Booking Details Page -->
+    <string name="bookSeat">Book a seat</string>
+    <string name="confirmBooking">Confirm Booking?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="successBooking">Congratulation!</string>
+    <string name="contentSuccessBooking">Your booking is confirmed</string>
+    <string name="ok">OK</string>
+    <string name="toast1">Sorry, the bus is fully booked</string>
+    <string name="toast2">Sorry, booking is closed from Friday to Sunday</string>
+    <string name="toast3">1 person can only book 1 seat</string>
+
+    <!-- Daily Schedule (No reservation) -->
+    <string name="daily">DAILY</string>
+    <string name="monday_thursday">Monday - Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday_sunday">Saturday - Sunday</string>
+    <string name="publicHoliday">Including Public Holiday</string>
+    <string name="bookNow">Book Now -></string>
+    <string name="session">Session :</string>
+
+    <!-- Special Schedule (Require reservation) -->
+    <string name="special">SPECIAL</string>
+    <string name="friday_special">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <!-- View Schedule Page -->
+    <string name="timeline">Time Schedule</string>
+
+    <!-- QR Code Scanner Page -->
+    <string name="scanner">Scan Code</string>
+    <string name="invalidCode">Invalid QR Code</string>
+    <string name="camPermission">Camera Permission is Required.</string>
+    <string name="scanTitle1">Scan successful</string>
+    <string name="scanTitle2">Ticket not found!</string>
+    <string name="scanContent1">Welcome aboard~</string>
+    <string name="scanContent2">Please try again</string>
+
+    <!-- Contact Page -->
+    <string name="officerHeader">Officer Incharge</string>
+    <string name="officer1">Officer 1</string>
+    <string name="officer2">Officer 2</string>
+    <string name="hotlineHeader">Emergency Hotline</string>
+    <string name="hotline">Police/Ambulance</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:background="#F5F5DD"
+    android:gravity="bottom">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/bus_splash_transparent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="Xmum Bus APP"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/bungee_regular"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/tvPassengerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/baloo"
+        android:layout_marginStart="10dp"/>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stop_list_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/stop_sequence"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/tab_background"
+        app:cornerRadius="30dp"
+        android:clickable="false"
+        android:text="Stop 1"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <com.vipul.hp_hp.timelineview.TimelineView
+        app:marker="@mipmap/ic_timeline"
+        android:layout_width="40dp"
+        android:layout_height="70dp"
+        app:marker_size="20dp"
+        app:line_size="5dp"
+        app:line="@color/black"/>
+
+    <TextView
+        android:id="@+id/stops_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/baloo"/>
+
+</LinearLayout>

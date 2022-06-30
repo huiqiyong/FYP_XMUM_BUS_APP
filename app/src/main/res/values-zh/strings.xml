@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XMUM巴士</string>
+    <string name="hello_blank_fragment">空白页</string>
+
+    <!-- Login Page -->
+    <string name="welcome">欢迎回来</string>
+    <string name="subTitle">继续登录！</string>
+    <string name="hint1">用户名</string>
+    <string name="hint2">密码</string>
+    <string name="userType1">乘客</string>
+    <string name="userType2">司机</string>
+    <string name="go">登入</string>
+    <string name="inputCheck">所有字段不允许为空状态提交</string>
+    <string name="noRecord">记录不存在</string>
+    <string name="passwordError">密码错误</string>
+    <string name="language">语言</string>
+    <string name="english">英语</string>
+    <string name="mandarin">华语</string>
+    <string name="langToast">已选择语言!</string>
+
+    <!-- Fingerprint Page -->
+    <string name="fingerprint">指纹认证</string>
+    <string name="succeedToast">认证成功!</string>
+    <string name="failedToast">认证失败</string>
+    <string name="biometricTitle">生物识别登录</string>
+    <string name="biometricSubTitle">使用您的指纹登录</string>
+    <string name="biometricCancel">取消</string>
+    <string name="sensorToast">此设备没有指纹传感器</string>
+
+    <!-- API Key -->
+    <string name="google_map_api_key">AIzaSyAVlGKU6xFT2JKzCD-P9a-qxZwd0z52I_U</string>
+
+    <!-- Driver -->
+    <string name="exit">确认退出?</string>
+    <!-- Bus Status Update Page -->
+    <string name="pageTitle">巴士路线</string>
+    <string name="messageTitle">巴士状况</string>
+    <string name="busStatus1">按时出发</string>
+    <string name="busStatus2">延迟出发</string>
+    <string name="busStatus3">巴士故障</string>
+    <string name="stopBtn">停止追踪</string>
+    <string name="stopTrackingToast">已停止追踪</string>
+    <string name="locationUpdate">定位更新开始</string>
+    <string name="errorSignOut">请在退出前停止跟踪！</string>
+
+    <!-- Vehicle Tracking Page -->
+    <string name="startBtn">开始追踪</string>
+    <string name="routeText">路线名称: </string>
+    <string name="departTime">出发时间: </string>
+    <string name="enableLocation">请启用定位权限以继续使用该程序</string>
+    <string name="locationPermission">定位权限</string>
+    <string name="contentLocationPermission">此应用需要定位权限才能开始追踪巴士位置</string>
+    <string name="permissionDenied">定位权限被拒绝</string>
+
+    <!-- Driver Main Page -->
+    <string name="mainPageTitle">工作时间表</string>
+    <string name="universityName">马来西亚厦门大学</string>
+    <string name="dailyRoute">日常巴士路线</string>
+    <string name="specialRoute">限定巴士路线</string>
+    <string name="timeText">出发时间: </string>
+    <string name="workMessage">休息日</string>
+
+    <!-- Passenger -->
+    <!-- Page Title -->
+    <string name="title1">我的预约</string>
+    <string name="title2">巴士路线表</string>
+    <string name="title3">巴士时间表</string>
+    <string name="title4">巴士实时追踪</string>
+    <string name="title5">二维码扫描仪</string>
+    <string name="title6">紧急热线</string>
+    <string name="title7">登出</string>
+    <string name="signoutMessage">登出成功</string>
+    <string name="backPressedToast">再按一次返回键退出</string>
+
+    <!-- Track Bus Map Page -->
+    <string name="selectedRoute">选定路线 :</string>
+    <string name="eTA">预计到达时间 :</string>
+    <string name="driverText">司机 :</string>
+    <string name="busNumber">巴士号码牌 :</string>
+    <string name="driverContact">电话 :</string>
+    <string name="busStatusText">巴士状况 :</string>
+    <string name="notificationMessage">您的巴士即将到达</string>
+    <string name="notificationMessage2">巴士将在目的地停顿5分钟,请尽快搭乘巴士.</string>
+    <string name="completeRoute">此路线已完成.即刻停止追踪.</string>
+    <string name="breakdownTitle">紧急通知!</string>
+    <string name="breakdownContent">巴士抛锚在 </string>
+    <string name="busMarker">当前巴士位置</string>
+
+    <!-- Route Map Page -->
+    <string name="back">返回</string>
+
+    <!-- MyBooking Page -->
+    <string name="bookingMenu">预约目录</string>
+    <string name="bookingHistory">预约记录</string>
+
+    <!-- Booking Alarm Page -->
+    <string name="bookingAlarmTitle">准备好!</string>
+    <string name="bookingAlarmContent">您的巴士将在十分钟后抵达目的地.</string>
+
+    <!-- Booking History Page -->
+    <string name="bookingMessage">零预约记录</string>
+
+    <!-- Booking Detail Page -->
+    <string name="bookSeat">预约座位</string>
+    <string name="confirmBooking">确认预约？</string>
+    <string name="no">取消</string>
+    <string name="yes">确认</string>
+    <string name="successBooking">预约成功!</string>
+    <string name="contentSuccessBooking">祝您旅途愉快</string>
+    <string name="ok">完成</string>
+    <string name="toast1">抱歉，巴士已满</string>
+    <string name="toast2">抱歉，周五至周日不接受预约</string>
+    <string name="toast3">提示：1人只能预约1个座位</string>
+
+    <!-- Daily Schedule (No reservation) -->
+    <string name="daily">日常巴士时刻表</string>
+    <string name="monday_thursday">周一至周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday_sunday">周六至周日</string>
+    <string name="publicHoliday">包括公众假期</string>
+    <string name="bookNow">即刻预约 -></string>
+    <string name="session">时间段 :</string>
+
+    <!-- Special Schedule (Require reservation) -->
+    <string name="special">限定巴士时刻表</string>
+    <string name="friday_special">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+
+    <!-- View Schedule Page -->
+    <string name="timeline">时间线</string>
+
+    <!-- QR Code Scanner Page -->
+    <string name="scanner">即刻扫码</string>
+    <string name="invalidCode">二维码无效</string>
+    <string name="camPermission">请开通相机权限</string>
+    <string name="scanTitle1">扫描成功</string>
+    <string name="scanTitle2">找不到巴士票!</string>
+    <string name="scanContent1">欢迎乘坐~</string>
+    <string name="scanContent2">请再试一次</string>
+
+    <!-- Contact Page -->
+    <string name="officerHeader">相关负责人</string>
+    <string name="officer1">负责人1</string>
+    <string name="officer2">负责人2</string>
+    <string name="hotlineHeader">紧急热线</string>
+    <string name="hotline">警察/救护车</string>
+
+</resources>
